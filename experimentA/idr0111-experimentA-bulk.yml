@@ -1,0 +1,3 @@
+---
+include: "../bulk.yml"
+path: "idr0111-experimentA-filePaths.tsv"
