@@ -51,7 +51,6 @@ columns:
         - name: Comment [Gene Identifier 1]
           clientname: Gene Identifier
           include: true
-          omitempty: false
         - name: Comment [Gene Identifier 1]
           clientname: Gene Identifier URL
           clientvalue: >
@@ -60,7 +59,6 @@ columns:
         - name: Comment [Gene Symbol 1]
           clientname: Gene Symbol
           include: true
-          omitempty: false
 
   - group:
       namespace: openmicroscopy.org/mapr/gene
@@ -68,7 +66,6 @@ columns:
         - name: Comment [Gene Identifier 2]
           clientname: Gene Identifier
           include: true
-          omitempty: false
         - name: Comment [Gene Identifier 2]
           clientname: Gene Identifier URL
           clientvalue: >
@@ -77,7 +74,6 @@ columns:
         - name: Comment [Gene Symbol 2]
           clientname: Gene Symbol
           include: true
-          omitempty: false
 
 advanced:
   ignore_missing_primary_key: yes
