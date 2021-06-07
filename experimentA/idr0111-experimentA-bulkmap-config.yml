@@ -1,0 +1,74 @@
+---
+name: idr0111-lee-cellmigration/experimentA
+version: 1
+
+defaults:
+  include: no
+  type: string
+  includeclient: yes
+  visible: yes
+  omitempty: yes
+
+columns:
+
+  - name: Characteristics [Cell Labels]
+    clientname: Cell Labels
+    include: yes
+
+  - name: Comment [Experimental Replicate Date]
+    clientname: Experimental Replicate Date
+    include: yes
+
+  - name: Experimental Condition [Genetic Perturbation]
+    clientname: Genetic Perturbation
+    include: yes
+
+  - name: Channels
+    include: true
+
+
+  ######################################################################
+  # mapr groups
+  ######################################################################
+
+  - group:
+      namespace: openmicroscopy.org/mapr/organism
+      columns:
+        - name: Characteristics [Organism]
+          clientname: Organism
+          include: yes
+
+   - group:
+      namespace: openmicroscopy.org/mapr/cell_line
+      columns:
+        - name: Characteristics [Cell Line]
+          clientname: Cell Line
+          include: true
+
+  - group:
+      namespace: openmicroscopy.org/mapr/gene
+      columns:
+        - name: Comment [Gene Identifier]
+          clientname: Gene Identifier
+          include: true
+          omitempty: false
+        - name: Comment [Gene Identifier]
+          clientname: Gene Identifier URL
+          clientvalue: >
+            http://www.ensembl.org/id/{{ value|urlencode }}
+          include: true
+        - name: Comment [Gene Symbol]
+          clientname: Gene Symbol
+          include: true
+          omitempty: false
+
+advanced:
+  ignore_missing_primary_key: yes
+  primary_group_keys:
+    - namespace: openmicroscopy.org/mapr/organism
+      keys:
+        - Organism
+    - namespace: openmicroscopy.org/mapr/cell_line
+      keys:
+        - Cell Line
+
