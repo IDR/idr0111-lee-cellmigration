@@ -50,7 +50,7 @@ columns:
           clientname: Organism
           include: yes
 
-   - group:
+  - group:
       namespace: openmicroscopy.org/mapr/cell_line
       columns:
         - name: Characteristics [Cell Line]
