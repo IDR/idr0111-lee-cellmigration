@@ -6,4 +6,4 @@
 | Task | Duration |
 | :----: |:----:|
 | Images| 2h |
-| Annotations | -- |
+| Annotations | few min |
