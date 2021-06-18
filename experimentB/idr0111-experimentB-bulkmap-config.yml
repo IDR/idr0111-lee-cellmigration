@@ -1,5 +1,5 @@
 ---
-name: idr0111-lee-cellmigration/experimentA
+name: idr0111-lee-cellmigration/experimentB
 version: 1
 
 defaults:
@@ -10,10 +10,6 @@ defaults:
   omitempty: yes
 
 columns:
-
-  - name: Characteristics [Cell Labels]
-    clientname: Cell Labels
-    include: yes
 
   - name: Comment [Experimental Replicate Date]
     clientname: Experimental Replicate Date
@@ -35,9 +31,6 @@ columns:
     clientname: Density
     include: yes
 
-  - name: Channels
-    include: true
-
 
   ######################################################################
   # mapr groups
@@ -56,6 +49,13 @@ columns:
         - name: Characteristics [Cell Line]
           clientname: Cell Line
           include: true
+
+  - group:
+      namespace: openmicroscopy.org/mapr/cell_line/supplementary
+      columns:
+      - name: Characteristics [Cell Labels]
+        clientname: Comment Cell Labels
+        include: yes
 
   - group:
       namespace: openmicroscopy.org/mapr/gene
@@ -86,6 +86,13 @@ columns:
         - name: Comment [Gene Symbol 2]
           clientname: Gene Symbol
           include: true
+
+  - group:
+      namespace: openmicroscopy.org/mapr/gene/supplementary
+      columns:
+      - name: Comment [Gene Annotation Comments]
+        clientname: Gene Annotation Comments
+        include: yes
 
 advanced:
   ignore_missing_primary_key: yes
