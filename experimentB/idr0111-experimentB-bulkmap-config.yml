@@ -54,7 +54,7 @@ columns:
       namespace: openmicroscopy.org/mapr/cell_line/supplementary
       columns:
       - name: Characteristics [Cell Labels]
-        clientname: Comment Cell Labels
+        clientname: Cell Labels
         include: yes
 
   - group:
