@@ -1,0 +1,14 @@
+---
+channels:
+    1:
+        active: true
+        color: '808080'
+        end: 4095.0
+        label: phase contrast
+        max: 4095.0
+        min: 571.0
+        start: 250.0
+greyscale: true
+t: 1
+version: 2
+z: 1
