@@ -1,0 +1,195 @@
+# FILL IN AS MUCH INFORMATION AS YOU CAN.  HINTS HAVE BEEN PUT IN SOME FIELDS AFTER THE HASH # SYMBOL. REPLACE THE HINT WITH TEXT WHERE APPROPRIATE.				
+# STUDY DESCRIPTION SECTION									
+# Section with generic information about the study including title, description, publication details (if applicable) and contact details										
+										
+Comment[IDR Study Accession]	idr0111									
+Study Title	Distinct Roles of Tumor Associated Mutations in Collective Cell Migration									
+Study Type	time-lapse imaging									
+Study Type Term Source REF	OMIT									
+Study Type Term Accession	OMIT_0027490									
+Study Description	Recent evidence suggests that groups of cells are more likely to form clinically dangerous metastatic tumors, emphasizing the importance of understanding mechanisms underlying collective behavior. The emergent collective behavior of migrating cell sheets in vitro has been shown to be disrupted in tumorigenic cells but the connection between this behavior and in vivo tumorigenicity remains unclear. We use particle image velocimetry to measure a multidimensional migration phenotype for genetically defined human breast epithelial cell lines that range in their in vivo behavior from non-tumorigenic to aggressively metastatic. By using cells with controlled mutations, we show that PTEN deletion enhances collective migration, while Ras activation suppresses it, even when combined with PTEN deletion. These opposing effects on collective migration of two mutations that are frequently found in patient tumors could be exploited in the development of novel treatments for metastatic disease. Our methods are based on label-free phase contrast imaging, and thus could easily be applied to patient tumor cells. The short time scales of our approach do not require potentially selective growth, and thus in combination with label-free imaging would allow multidimensional collective migration phenotypes to be utilized in clinical assessments of metastatic potential.
+									
+Study Key Words	cell migration	collective dynamics	metastasis	breast cancer	KRas	PTEN	particle image velocimetry (PIV)								
+Study Organism	Homo sapiens
+									
+Study Organism Term Source REF	NCBITaxon									
+Study Organism Term Accession	9606									
+Study Experiments Number	2									
+Study External URL	
+
+Study BioImage Archive Accession
+								
+Study Public Release Date										
+										
+# Study Publication	
+									
+Study PubMed ID	33986306
+									
+Study Publication Title	Distinct Roles of Tumor Associated Mutations in Collective Cell Migration									
+Study Author List	Lee RM, Vitolo MI, Losert W, Martin SS									
+Study PMC ID	PMC8119502	
+								
+Study DOI	https://doi.org/10.1038/s41598-021-89130-6									
+										
+# Study Contacts	
+									
+Study Person Last Name	Lee	Martin	
+							
+Study Person First Name	Rachel	Stuart	
+							
+Study Person Email	RaLee@som.umaryland.edu	SSMartin@som.umaryland.edu								
+Study Person Address	Marlene and Stewart Greenebaum NCI Comprehensive Cancer Center, University of Maryland School of Medicine, 655 W. Baltimore St., Bressler Bldg., Rm 10-29, Baltimore, MD 21201	Marlene and Stewart Greenebaum NCI Comprehensive Cancer Center, University of Maryland School of Medicine, 655 W. Baltimore St., Bressler Bldg., Rm 10-29, Baltimore, MD 21201								
+Study Person ORCID	0000-0001-9359-0422	0000-0002-4378-4381								
+Study Person Roles	submitter	corresponding author								
+										
+# Study License and Data DOI										
+Study License	CC BY 4.0	
+								
+Study License URL	https://creativecommons.org/licenses/by/4.0/									
+Study Copyright	Lee et al	
+								
+Study Data Publisher	University of Dundee									
+Study Data DOI										
+										
+Term Source Name	NCBITaxon	EFO	CMPO	FBbi						
+Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http://www.ebi.ac.uk/cmpo/	http://purl.obolibrary.org/obo/						
+										
+										
+# EXPERIMENT SECTION										
+# Experiment Section containing all information relative to each experiment in the study including materials used, protocols names and description, phenotype names and description. For multiple experiments this section should be repeated.  Copy and paste the whole section below and fill out for the next experiment										
+										
+Experiment Number	1	
+								
+Comment[IDR Experiment Name]	idr0111-lee-cellmigration/experimentA	
+
+Experiment Sample Type	cell
+								
+Experiment Description	MCF10A, PTEN-/-, KRas, and KRas/PTEN-/- cell lines or the MCF10A and MDA-MB-231 cell lines were plated in a collective migration assay that uses circular cell sheets.  Tiled images of each full cell sheet were taken before and after a set of time lapse images was taken of two ROIs in each cell sheet.	
+							
+Experiment Size	5D Images: 396	Average Image Dimension (XYZCT): 1024 x 1344 x 1 x 1 x 241 OR 11500 x 11500 x 1 x 1 x 1	Total Tb: 0.093	
+						
+Experiment Example Images										
+Experiment Imaging Method	phase contrast microscopy									
+Experiment Imaging Method Term Source REF	Fbbi									
+Experiment Imaging Method Term Accession	FBbi_00000247									
+Experiment Organism	
+									
+Experiment Organism Term Source REF	NCBITaxon									
+Experiment Organism Term Accession									
+Experiment Comments	Each experiment was conducted using a blocked replicate design, allowing for paired comparisons between data collected on the same Experimental Replicate Date.								
+										
+# assay files	
+									
+Experiment Assay File	idr0111-experimentA-annotation									
+Experiment Assay File Format	tab-delimited text									
+Assay Experimental Conditions	Wild type MCF10A cells were compared to PTEN-/-, KRas, and KRas/PTEN-/- mutants or to the MDA-MB-231 cell line.								
+Assay Experimental Conditions Term Source REF										
+Assay Experimental Conditions Term Accession									
+Quality Control Description	
+								
+										
+# Protocols										
+Protocol Name	growth protocol	treatment protocol	image acquisition and feature extraction protocol	data analysis protocol						
+Protocol Type	growth protocol	treatment protocol	image acquisition and feature extraction protocol	data analysis protocol						
+Protocol Type Term Source REF	EFO	EFO								
+Protocol Type Term Accession	EFO_0003789	EFO_0003969								
+Protocol Description	For comparisons between the MCF10A, PTEN-/-, KRas, and KRas/PTEN-/- cell lines, the cells were were maintained in DMEM/F12 medium with 5% horse serum, 10 µg/ml insulin, 10 ng/ml EGF, 0.5 µg/ml hydrocortison, 100 ng/ml cholera toxin and 0.5 µg/ml puromycin at 37 C and 5% CO2.  For comparisons between the MCF10A and MDA-MB-231 cell lines, the MCF10A were mainted in DMEM/F12 medium with 5% horse serum, 10 µg/ml insulin, 10 ng/ml EGF, 0.5 µg/ml hydrocortison, and 100 ng/ml cholera toxin. MDA-MB-231 cells were maintained in DMEM with 10% fetal bovine serum.	Cells were plated as a circular monolayer on collagen IV coated (3.25 µg/cm^2) glass coverslips in a 12 well plate.  Cells were allowed to adhere overnight before imaging.  Additional details are available in the study publication.	Cells were imaged overnight on a PerkinElmer UltraView VoX spinning-disk confocal microscope. Before time-lapse imaging, a single snapshot of the entire cell sheet was recorded by tiling multiple phase contrast images. A motorized x-y stage and Nikon Perfect Focus System were used to acquire images at multiple positions over time. The microscope was equipped with a Tokai Hit environmental chamber with a humidity reservoir and was set to 37 °C and 5% CO2. Images were taken using a 10× phase-contrast objective (Nikon CFl Plan Fluor, NA 0.3). Images were collected using PerkinElmer’s Volocity software (version 6.4.0) with a Hamamatsu C10600-10B ORCA-R2 camera that recorded 12-bit images (1024 pixels × 1344 pixels, 0.582 µm/pixel). Images were recorded every 3 min for 12 h.	Images were analyzed using the workflow described at https://github.com/ScientistRachel/multiScalePIVanalysis	
+					
+										
+# Phenotypes		
+								
+Phenotype Name	cell migration	
+								
+Phenotype Description	Cell migration was automatically analyzed using particle image velocimetry (PIV) and image segmentation; multiple migration metrics (described in the processed data files) were used to define a collective migration phenotype.  								
+Phenotype Score Type	automatic									
+Phenotype Term Source REF	CMPO									
+Phenotype Term Name	cell migration phenotype									
+Phenotype Term Accession	CMPO_0000033		 							
+										
+										
+# Feature Level Data Files (give individual file details unless there is one file per well)										
+Feature Level Data File Name	Date-Migration-Position.csv corresponding to each migration image file									
+Feature Level Data File Format	csv									
+Feature Level Data File Description	comma separated values									
+Feature Level Data Column Name	x_pixels	y_pixels	u_pixelsPerFrame	v_pixelsPerFrame	t_frames	peakHeight	signalToNoise			
+Feature Level Data Column Description	x location, in pixels, of the PIV grid point	y location, in pixels, of the PIV grid point	speed in the x-direction (u) in pixels/frame	speed in the y-direction (v) in pixels/frame	time in frames	height of the correlation peak from PIV analysis	strength of the PIV peak compared to surrounding possible peaks			
+										
+
+#  Processed Data Files 										
+Processed Data File Name	idr0111-experimentA-processed									
+Processed Data File Format	tab-delimited text									
+Processed Data File Description	Multiple migration parameters are provided for each well.  Each well contains two sets of time lapse images representing different ROIs in the cell sheet. These were combined for analysis									
+Processed Data Column Name	AssayName	dR_um	speed_umPerMin	angularDeviation	positiveFTLE_percent	edgeLength_mm	edgeVariability_mm	corr_dr100um	timeScale_h	lengthScale_um
+Processed Data Column Type	Assay Name	phenotype	phenotype	phenotype	phenotype	phenotype	phenotype	phenotype	phenotype	phenotype
+Processed Data Column Annotation Level	well	well	well	well	well	well	well	well	well	well
+Processed Data Column Description	AssayName matches the Assay Name column in the assay file	Change in radius of the cell sheet over time, reported in µm	Average speed reported in µm/min	Angular deviation, a measure of direction variance, which ranges from 0 to sqrt(2)	The percentage of positive finite time Lyapunov exponent values	The average edge length of the leading edge, reported in mm	The standard deviation of the edge length over time, reported in mm	Modified spatial autocorrelation of the radial velocity at a distance of 100 µm	A characteristic time scale of migration features from coarse graining, reported in h	A characteristic length scale of migration features from coarse graining, reported in µm
+Processed Data Column Link To Assay File	Column 1, AssayName, uses the same notation as the assay file									
+										
+										
+Experiment Number	2	
+								
+Comment[IDR Experiment Name]	idr0111-lee-cellmigration/experimentB	
+
+Experiment Sample Type	cell
+								
+Experiment Description	MCF10A, PTEN-/-, KRas, and KRas/PTEN-/- cell lines were plated in a collective migration assay that uses circular cell sheets.  Duplicates plates were used to create fixed samples at t=0 (plate 1) and t=15 h (plate 2).  The fixed samples were stained with DAPI.									
+Experiment Size	5D Images: 24	Average Image Dimension (XYZCT): 11500 x 11500 x 1 x 2 x 1	Total Tb: 0.012			
+				
+Experiment Example Images										
+Experiment Imaging Method	phase contrast microscopy	spinning disk confocal microscopy								
+Experiment Imaging Method Term Source REF	Fbbi	Fbbi								
+Experiment Imaging Method Term Accession	FBbi_00000247	FBbi_00000253								
+Experiment Organism	
+									
+Experiment Organism Term Source REF	NCBITaxon									
+Experiment Organism Term Accession										
+Experiment Comments	Each experiment was conducted using a blocked replicate design, allowing for paired comparisons between data collected on the same Experimental Replicate Date.									
+										
+# assay files		
+								
+Experiment Assay File	idr0000-experimentB-annotation									
+Experiment Assay File Format	tab-delimited text									
+Assay Experimental Conditions	Wild type MCF10A cells were compared to PTEN-/-, KRas, and KRas/PTEN-/- mutants.
+									
+Assay Experimental Conditions Term Source REF									
+Assay Experimental Conditions Term Accession										
+Quality Control Description	
+								
+										
+# Protocols										
+Protocol Name	growth protocol	treatment protocol	image acquisition and feature extraction protocol	data analysis protocol						
+Protocol Type	growth protocol	treatment protocol	image acquisition and feature extraction protocol	data analysis protocol						
+Protocol Type Term Source REF	EFO	EFO								
+Protocol Type Term Accession	EFO_0003789	EFO_0003969								
+Protocol Description	Cells were maintained in DMEM/F12 medium with 5% horse serum, 10 µg/ml insulin, 10 ng/ml EGF, 0.5 µg/ml hydrocortison, 100 ng/ml cholera toxin and 0.5 µg/ml puromycin at 37 C and 5% CO2.	Cells were plated as a circular monolayer on collagen IV coated (3.25 µg/cm^2) glass coverslips in a 12 well plate.  Cells were allowed to adhere overnight before imaging.  Additional details are available in the study publication.	Cells were imaged on a PerkinElmer UltraView VoX spinning-disk confocal microscope. A single snapshot of the entire cell sheet was recorded by tiling multiple images of both phase contrast and 405 nm imaging (for the DAPI stain). Images were taken using a 10× phase-contrast objective (Nikon CFl Plan Fluor, NA 0.3). Images were collected using PerkinElmer’s Volocity software (version 6.4.0) with a Hamamatsu C10600-10B ORCA-R2 camera that recorded 12-bit images (1024 pixels × 1344 pixels, 0.582 µm/pixel).	Nuclei were found and counted using functions from the Crocker-Grier tracking algorithm, available at http://site.physics.georgetown.edu/matlab/code.html
+						
+										
+# Phenotypes		
+								
+Phenotype Name	Cell Number	
+								
+Phenotype Description	Nuclei centroids were identified and counted to determine cell number in each population.
+									
+Phenotype Score Type	automatic									
+Phenotype Term Source REF	CMPO									
+Phenotype Term Name	altered cell number in population									
+Phenotype Term Accession	CMPO_0000050		 							
+										
+										
+# Feature Level Data Files (give individual file details unless there is one file per well)										
+Feature Level Data File Name	Date-Well-TimePoint.csv									
+Feature Level Data File Format	csv									
+Feature Level Data File Description	comma separated values									
+Feature Level Data Column Name	x_pixels	y_pixels								
+Feature Level Data Column Description	x location, in pixels, of each nucleus	y location, in pixels, of each nucleus	
+							
+										
+#  Processed Data Files 										
+Processed Data File Name	idr0111-experimentB-processed									
+Processed Data File Format	tab-delimited text									
+Processed Data File Description	Summary values for the number of cells, the cell sheet radius, and the average cell density									
+Processed Data Column Name	SourceName	CellNumber	CellSheetRadius	Density						
+Processed Data Column Type	Source Name	Phenotype	Phenotype	Phenotype						
+Processed Data Column Annotation Level	Image	Image	Image	Image						
+Processed Data Column Description	Source Name	Number of nuclei counted in the image	Radius of the segmented cell sheet, in µm	Average cell density in the cell sheet, given in cells/µm^2						
+Processed Data Column Link To Assay File	Column 1, SourceName, uses the same notation as the assay file									
