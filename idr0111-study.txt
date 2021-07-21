@@ -49,7 +49,7 @@ Study License URL	https://creativecommons.org/licenses/by/4.0/
 Study Copyright	Lee et al	
 								
 Study Data Publisher	University of Dundee									
-Study Data DOI										
+Study Data DOI	https://doi.org/10.17867/10000163										
 										
 Term Source Name	NCBITaxon	EFO	CMPO	FBbi						
 Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http://www.ebi.ac.uk/cmpo/	http://purl.obolibrary.org/obo/						
@@ -61,6 +61,8 @@ Term Source URI	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http:/
 Experiment Number	1	
 								
 Comment[IDR Experiment Name]	idr0111-lee-cellmigration/experimentA	
+
+Experiment Data DOI	https://doi.org/10.17867/10000163a
 
 Experiment Sample Type	cell
 								
@@ -129,6 +131,8 @@ Processed Data Column Link To Assay File	Column 1, AssayName, uses the same nota
 Experiment Number	2	
 								
 Comment[IDR Experiment Name]	idr0111-lee-cellmigration/experimentB	
+
+Experiment Data DOI	https://doi.org/10.17867/10000163b
 
 Experiment Sample Type	cell
 								
