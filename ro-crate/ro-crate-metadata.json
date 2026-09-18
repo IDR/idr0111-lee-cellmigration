@@ -271,13 +271,25 @@
     {
       "@id": "#biosample-1",
       "@type": "bia:BioSample",
-      "name": "Homo sapiens",
-      "description": "Homo sapiens",
+      "name": "cell",
+      "description": "cell",
       "organismClassification": [
         {
           "@id": "NCBI:txid9606"
         }
       ]
+    },
+    {
+      "@id": "#image-acquisition-protocol-phase-contrast-microscopy",
+      "@type": "LabProtocol",
+      "name": "phase contrast microscopy",
+      "description": "phase contrast microscopy"
+    },
+    {
+      "@id": "#image-acquisition-protocol-spinning-disk-confocal-microscopy",
+      "@type": "LabProtocol",
+      "name": "spinning disk confocal microscopy",
+      "description": "spinning disk confocal microscopy"
     },
     {
       "@id": "https://doi.org/10.1038/s41598-021-89130-6",
@@ -360,11 +372,19 @@
           "@id": "#biosample-1"
         }
       ],
-      "associatedSpecimenImagingPreparationProtocol": [],
+      "associatedSpecimenImagingPreparationProtocol": [
+        {
+          "@id": "#image-acquisition-protocol-phase-contrast-microscopy"
+        }
+      ],
       "associatedSpecimen": null,
       "associatedCreationProcess": null,
       "associatedSourceImage": [],
-      "associatedImageAcquisitionProtocol": [],
+      "associatedImageAcquisitionProtocol": [
+        {
+          "@id": "#image-acquisition-protocol-phase-contrast-microscopy"
+        }
+      ],
       "associatedAnnotationMethod": [],
       "associatedImageAnalysisMethod": [],
       "associatedImageCorrelationMethod": [],
@@ -383,11 +403,19 @@
           "@id": "#biosample-1"
         }
       ],
-      "associatedSpecimenImagingPreparationProtocol": [],
+      "associatedSpecimenImagingPreparationProtocol": [
+        {
+          "@id": "#image-acquisition-protocol-phase-contrast-microscopy"
+        }
+      ],
       "associatedSpecimen": null,
       "associatedCreationProcess": null,
       "associatedSourceImage": [],
-      "associatedImageAcquisitionProtocol": [],
+      "associatedImageAcquisitionProtocol": [
+        {
+          "@id": "#image-acquisition-protocol-phase-contrast-microscopy"
+        }
+      ],
       "associatedAnnotationMethod": [],
       "associatedImageAnalysisMethod": [],
       "associatedImageCorrelationMethod": [],
@@ -406,11 +434,19 @@
           "@id": "#biosample-1"
         }
       ],
-      "associatedSpecimenImagingPreparationProtocol": [],
+      "associatedSpecimenImagingPreparationProtocol": [
+        {
+          "@id": "#image-acquisition-protocol-phase-contrast-microscopy"
+        }
+      ],
       "associatedSpecimen": null,
       "associatedCreationProcess": null,
       "associatedSourceImage": [],
-      "associatedImageAcquisitionProtocol": [],
+      "associatedImageAcquisitionProtocol": [
+        {
+          "@id": "#image-acquisition-protocol-phase-contrast-microscopy"
+        }
+      ],
       "associatedAnnotationMethod": [],
       "associatedImageAnalysisMethod": [],
       "associatedImageCorrelationMethod": [],
@@ -429,11 +465,19 @@
           "@id": "#biosample-1"
         }
       ],
-      "associatedSpecimenImagingPreparationProtocol": [],
+      "associatedSpecimenImagingPreparationProtocol": [
+        {
+          "@id": "#image-acquisition-protocol-phase-contrast-microscopy"
+        }
+      ],
       "associatedSpecimen": null,
       "associatedCreationProcess": null,
       "associatedSourceImage": [],
-      "associatedImageAcquisitionProtocol": [],
+      "associatedImageAcquisitionProtocol": [
+        {
+          "@id": "#image-acquisition-protocol-phase-contrast-microscopy"
+        }
+      ],
       "associatedAnnotationMethod": [],
       "associatedImageAnalysisMethod": [],
       "associatedImageCorrelationMethod": [],
@@ -452,11 +496,19 @@
           "@id": "#biosample-1"
         }
       ],
-      "associatedSpecimenImagingPreparationProtocol": [],
+      "associatedSpecimenImagingPreparationProtocol": [
+        {
+          "@id": "#image-acquisition-protocol-phase-contrast-microscopy"
+        }
+      ],
       "associatedSpecimen": null,
       "associatedCreationProcess": null,
       "associatedSourceImage": [],
-      "associatedImageAcquisitionProtocol": [],
+      "associatedImageAcquisitionProtocol": [
+        {
+          "@id": "#image-acquisition-protocol-phase-contrast-microscopy"
+        }
+      ],
       "associatedAnnotationMethod": [],
       "associatedImageAnalysisMethod": [],
       "associatedImageCorrelationMethod": [],
@@ -475,11 +527,19 @@
           "@id": "#biosample-1"
         }
       ],
-      "associatedSpecimenImagingPreparationProtocol": [],
+      "associatedSpecimenImagingPreparationProtocol": [
+        {
+          "@id": "#image-acquisition-protocol-phase-contrast-microscopy"
+        }
+      ],
       "associatedSpecimen": null,
       "associatedCreationProcess": null,
       "associatedSourceImage": [],
-      "associatedImageAcquisitionProtocol": [],
+      "associatedImageAcquisitionProtocol": [
+        {
+          "@id": "#image-acquisition-protocol-phase-contrast-microscopy"
+        }
+      ],
       "associatedAnnotationMethod": [],
       "associatedImageAnalysisMethod": [],
       "associatedImageCorrelationMethod": [],
@@ -498,11 +558,19 @@
           "@id": "#biosample-1"
         }
       ],
-      "associatedSpecimenImagingPreparationProtocol": [],
+      "associatedSpecimenImagingPreparationProtocol": [
+        {
+          "@id": "#image-acquisition-protocol-phase-contrast-microscopy"
+        }
+      ],
       "associatedSpecimen": null,
       "associatedCreationProcess": null,
       "associatedSourceImage": [],
-      "associatedImageAcquisitionProtocol": [],
+      "associatedImageAcquisitionProtocol": [
+        {
+          "@id": "#image-acquisition-protocol-phase-contrast-microscopy"
+        }
+      ],
       "associatedAnnotationMethod": [],
       "associatedImageAnalysisMethod": [],
       "associatedImageCorrelationMethod": [],
@@ -521,11 +589,19 @@
           "@id": "#biosample-1"
         }
       ],
-      "associatedSpecimenImagingPreparationProtocol": [],
+      "associatedSpecimenImagingPreparationProtocol": [
+        {
+          "@id": "#image-acquisition-protocol-phase-contrast-microscopy"
+        }
+      ],
       "associatedSpecimen": null,
       "associatedCreationProcess": null,
       "associatedSourceImage": [],
-      "associatedImageAcquisitionProtocol": [],
+      "associatedImageAcquisitionProtocol": [
+        {
+          "@id": "#image-acquisition-protocol-phase-contrast-microscopy"
+        }
+      ],
       "associatedAnnotationMethod": [],
       "associatedImageAnalysisMethod": [],
       "associatedImageCorrelationMethod": [],
@@ -544,11 +620,19 @@
           "@id": "#biosample-1"
         }
       ],
-      "associatedSpecimenImagingPreparationProtocol": [],
+      "associatedSpecimenImagingPreparationProtocol": [
+        {
+          "@id": "#image-acquisition-protocol-phase-contrast-microscopy"
+        }
+      ],
       "associatedSpecimen": null,
       "associatedCreationProcess": null,
       "associatedSourceImage": [],
-      "associatedImageAcquisitionProtocol": [],
+      "associatedImageAcquisitionProtocol": [
+        {
+          "@id": "#image-acquisition-protocol-phase-contrast-microscopy"
+        }
+      ],
       "associatedAnnotationMethod": [],
       "associatedImageAnalysisMethod": [],
       "associatedImageCorrelationMethod": [],
@@ -567,11 +651,19 @@
           "@id": "#biosample-1"
         }
       ],
-      "associatedSpecimenImagingPreparationProtocol": [],
+      "associatedSpecimenImagingPreparationProtocol": [
+        {
+          "@id": "#image-acquisition-protocol-phase-contrast-microscopy"
+        }
+      ],
       "associatedSpecimen": null,
       "associatedCreationProcess": null,
       "associatedSourceImage": [],
-      "associatedImageAcquisitionProtocol": [],
+      "associatedImageAcquisitionProtocol": [
+        {
+          "@id": "#image-acquisition-protocol-phase-contrast-microscopy"
+        }
+      ],
       "associatedAnnotationMethod": [],
       "associatedImageAnalysisMethod": [],
       "associatedImageCorrelationMethod": [],
@@ -590,11 +682,19 @@
           "@id": "#biosample-1"
         }
       ],
-      "associatedSpecimenImagingPreparationProtocol": [],
+      "associatedSpecimenImagingPreparationProtocol": [
+        {
+          "@id": "#image-acquisition-protocol-phase-contrast-microscopy"
+        }
+      ],
       "associatedSpecimen": null,
       "associatedCreationProcess": null,
       "associatedSourceImage": [],
-      "associatedImageAcquisitionProtocol": [],
+      "associatedImageAcquisitionProtocol": [
+        {
+          "@id": "#image-acquisition-protocol-phase-contrast-microscopy"
+        }
+      ],
       "associatedAnnotationMethod": [],
       "associatedImageAnalysisMethod": [],
       "associatedImageCorrelationMethod": [],
@@ -613,11 +713,19 @@
           "@id": "#biosample-1"
         }
       ],
-      "associatedSpecimenImagingPreparationProtocol": [],
+      "associatedSpecimenImagingPreparationProtocol": [
+        {
+          "@id": "#image-acquisition-protocol-phase-contrast-microscopy"
+        }
+      ],
       "associatedSpecimen": null,
       "associatedCreationProcess": null,
       "associatedSourceImage": [],
-      "associatedImageAcquisitionProtocol": [],
+      "associatedImageAcquisitionProtocol": [
+        {
+          "@id": "#image-acquisition-protocol-phase-contrast-microscopy"
+        }
+      ],
       "associatedAnnotationMethod": [],
       "associatedImageAnalysisMethod": [],
       "associatedImageCorrelationMethod": [],
@@ -636,11 +744,19 @@
           "@id": "#biosample-1"
         }
       ],
-      "associatedSpecimenImagingPreparationProtocol": [],
+      "associatedSpecimenImagingPreparationProtocol": [
+        {
+          "@id": "#image-acquisition-protocol-phase-contrast-microscopy"
+        }
+      ],
       "associatedSpecimen": null,
       "associatedCreationProcess": null,
       "associatedSourceImage": [],
-      "associatedImageAcquisitionProtocol": [],
+      "associatedImageAcquisitionProtocol": [
+        {
+          "@id": "#image-acquisition-protocol-phase-contrast-microscopy"
+        }
+      ],
       "associatedAnnotationMethod": [],
       "associatedImageAnalysisMethod": [],
       "associatedImageCorrelationMethod": [],
@@ -659,11 +775,19 @@
           "@id": "#biosample-1"
         }
       ],
-      "associatedSpecimenImagingPreparationProtocol": [],
+      "associatedSpecimenImagingPreparationProtocol": [
+        {
+          "@id": "#image-acquisition-protocol-phase-contrast-microscopy"
+        }
+      ],
       "associatedSpecimen": null,
       "associatedCreationProcess": null,
       "associatedSourceImage": [],
-      "associatedImageAcquisitionProtocol": [],
+      "associatedImageAcquisitionProtocol": [
+        {
+          "@id": "#image-acquisition-protocol-phase-contrast-microscopy"
+        }
+      ],
       "associatedAnnotationMethod": [],
       "associatedImageAnalysisMethod": [],
       "associatedImageCorrelationMethod": [],
@@ -682,11 +806,19 @@
           "@id": "#biosample-1"
         }
       ],
-      "associatedSpecimenImagingPreparationProtocol": [],
+      "associatedSpecimenImagingPreparationProtocol": [
+        {
+          "@id": "#image-acquisition-protocol-phase-contrast-microscopy"
+        }
+      ],
       "associatedSpecimen": null,
       "associatedCreationProcess": null,
       "associatedSourceImage": [],
-      "associatedImageAcquisitionProtocol": [],
+      "associatedImageAcquisitionProtocol": [
+        {
+          "@id": "#image-acquisition-protocol-phase-contrast-microscopy"
+        }
+      ],
       "associatedAnnotationMethod": [],
       "associatedImageAnalysisMethod": [],
       "associatedImageCorrelationMethod": [],
@@ -705,11 +837,19 @@
           "@id": "#biosample-1"
         }
       ],
-      "associatedSpecimenImagingPreparationProtocol": [],
+      "associatedSpecimenImagingPreparationProtocol": [
+        {
+          "@id": "#image-acquisition-protocol-phase-contrast-microscopy"
+        }
+      ],
       "associatedSpecimen": null,
       "associatedCreationProcess": null,
       "associatedSourceImage": [],
-      "associatedImageAcquisitionProtocol": [],
+      "associatedImageAcquisitionProtocol": [
+        {
+          "@id": "#image-acquisition-protocol-phase-contrast-microscopy"
+        }
+      ],
       "associatedAnnotationMethod": [],
       "associatedImageAnalysisMethod": [],
       "associatedImageCorrelationMethod": [],
@@ -728,11 +868,25 @@
           "@id": "#biosample-1"
         }
       ],
-      "associatedSpecimenImagingPreparationProtocol": [],
+      "associatedSpecimenImagingPreparationProtocol": [
+        {
+          "@id": "#image-acquisition-protocol-phase-contrast-microscopy"
+        },
+        {
+          "@id": "#image-acquisition-protocol-spinning-disk-confocal-microscopy"
+        }
+      ],
       "associatedSpecimen": null,
       "associatedCreationProcess": null,
       "associatedSourceImage": [],
-      "associatedImageAcquisitionProtocol": [],
+      "associatedImageAcquisitionProtocol": [
+        {
+          "@id": "#image-acquisition-protocol-phase-contrast-microscopy"
+        },
+        {
+          "@id": "#image-acquisition-protocol-spinning-disk-confocal-microscopy"
+        }
+      ],
       "associatedAnnotationMethod": [],
       "associatedImageAnalysisMethod": [],
       "associatedImageCorrelationMethod": [],
