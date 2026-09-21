@@ -306,13 +306,9 @@
         "bia:Contributor"
       ],
       "name": "Lee RM",
-      "address": null,
-      "website": null,
-      "memberOf": [],
       "role": [
         "author"
-      ],
-      "email": null
+      ]
     },
     {
       "@id": "#author-1",
@@ -321,13 +317,9 @@
         "bia:Contributor"
       ],
       "name": "Vitolo MI",
-      "address": null,
-      "website": null,
-      "memberOf": [],
       "role": [
         "author"
-      ],
-      "email": null
+      ]
     },
     {
       "@id": "#author-2",
@@ -336,13 +328,9 @@
         "bia:Contributor"
       ],
       "name": "Losert W",
-      "address": null,
-      "website": null,
-      "memberOf": [],
       "role": [
         "author"
-      ],
-      "email": null
+      ]
     },
     {
       "@id": "#author-3",
@@ -351,13 +339,9 @@
         "bia:Contributor"
       ],
       "name": "Martin SS",
-      "address": null,
-      "website": null,
-      "memberOf": [],
       "role": [
         "author"
-      ],
-      "email": null
+      ]
     },
     {
       "@id": "#Dataset-14901",
@@ -366,7 +350,6 @@
         "bia:Dataset"
       ],
       "name": "Exp01",
-      "description": "",
       "associatedBiologicalEntity": [
         {
           "@id": "#biosample-1"
@@ -377,18 +360,11 @@
           "@id": "#image-acquisition-protocol-phase-contrast-microscopy"
         }
       ],
-      "associatedSpecimen": null,
-      "associatedCreationProcess": null,
-      "associatedSourceImage": [],
       "associatedImageAcquisitionProtocol": [
         {
           "@id": "#image-acquisition-protocol-phase-contrast-microscopy"
         }
-      ],
-      "associatedAnnotationMethod": [],
-      "associatedImageAnalysisMethod": [],
-      "associatedImageCorrelationMethod": [],
-      "associatedProtocol": []
+      ]
     },
     {
       "@id": "#Dataset-14909",
@@ -397,7 +373,6 @@
         "bia:Dataset"
       ],
       "name": "Exp02",
-      "description": "",
       "associatedBiologicalEntity": [
         {
           "@id": "#biosample-1"
@@ -408,18 +383,11 @@
           "@id": "#image-acquisition-protocol-phase-contrast-microscopy"
         }
       ],
-      "associatedSpecimen": null,
-      "associatedCreationProcess": null,
-      "associatedSourceImage": [],
       "associatedImageAcquisitionProtocol": [
         {
           "@id": "#image-acquisition-protocol-phase-contrast-microscopy"
         }
-      ],
-      "associatedAnnotationMethod": [],
-      "associatedImageAnalysisMethod": [],
-      "associatedImageCorrelationMethod": [],
-      "associatedProtocol": []
+      ]
     },
     {
       "@id": "#Dataset-14910",
@@ -428,7 +396,6 @@
         "bia:Dataset"
       ],
       "name": "Exp03",
-      "description": "",
       "associatedBiologicalEntity": [
         {
           "@id": "#biosample-1"
@@ -439,18 +406,11 @@
           "@id": "#image-acquisition-protocol-phase-contrast-microscopy"
         }
       ],
-      "associatedSpecimen": null,
-      "associatedCreationProcess": null,
-      "associatedSourceImage": [],
       "associatedImageAcquisitionProtocol": [
         {
           "@id": "#image-acquisition-protocol-phase-contrast-microscopy"
         }
-      ],
-      "associatedAnnotationMethod": [],
-      "associatedImageAnalysisMethod": [],
-      "associatedImageCorrelationMethod": [],
-      "associatedProtocol": []
+      ]
     },
     {
       "@id": "#Dataset-14911",
@@ -459,7 +419,6 @@
         "bia:Dataset"
       ],
       "name": "Exp04",
-      "description": "",
       "associatedBiologicalEntity": [
         {
           "@id": "#biosample-1"
@@ -470,18 +429,11 @@
           "@id": "#image-acquisition-protocol-phase-contrast-microscopy"
         }
       ],
-      "associatedSpecimen": null,
-      "associatedCreationProcess": null,
-      "associatedSourceImage": [],
       "associatedImageAcquisitionProtocol": [
         {
           "@id": "#image-acquisition-protocol-phase-contrast-microscopy"
         }
-      ],
-      "associatedAnnotationMethod": [],
-      "associatedImageAnalysisMethod": [],
-      "associatedImageCorrelationMethod": [],
-      "associatedProtocol": []
+      ]
     },
     {
       "@id": "#Dataset-14912",
@@ -490,7 +442,6 @@
         "bia:Dataset"
       ],
       "name": "Exp05",
-      "description": "",
       "associatedBiologicalEntity": [
         {
           "@id": "#biosample-1"
@@ -501,18 +452,11 @@
           "@id": "#image-acquisition-protocol-phase-contrast-microscopy"
         }
       ],
-      "associatedSpecimen": null,
-      "associatedCreationProcess": null,
-      "associatedSourceImage": [],
       "associatedImageAcquisitionProtocol": [
         {
           "@id": "#image-acquisition-protocol-phase-contrast-microscopy"
         }
-      ],
-      "associatedAnnotationMethod": [],
-      "associatedImageAnalysisMethod": [],
-      "associatedImageCorrelationMethod": [],
-      "associatedProtocol": []
+      ]
     },
     {
       "@id": "#Dataset-14913",
@@ -521,7 +465,6 @@
         "bia:Dataset"
       ],
       "name": "Exp06",
-      "description": "",
       "associatedBiologicalEntity": [
         {
           "@id": "#biosample-1"
@@ -532,18 +475,11 @@
           "@id": "#image-acquisition-protocol-phase-contrast-microscopy"
         }
       ],
-      "associatedSpecimen": null,
-      "associatedCreationProcess": null,
-      "associatedSourceImage": [],
       "associatedImageAcquisitionProtocol": [
         {
           "@id": "#image-acquisition-protocol-phase-contrast-microscopy"
         }
-      ],
-      "associatedAnnotationMethod": [],
-      "associatedImageAnalysisMethod": [],
-      "associatedImageCorrelationMethod": [],
-      "associatedProtocol": []
+      ]
     },
     {
       "@id": "#Dataset-14914",
@@ -552,7 +488,6 @@
         "bia:Dataset"
       ],
       "name": "Exp07",
-      "description": "",
       "associatedBiologicalEntity": [
         {
           "@id": "#biosample-1"
@@ -563,18 +498,11 @@
           "@id": "#image-acquisition-protocol-phase-contrast-microscopy"
         }
       ],
-      "associatedSpecimen": null,
-      "associatedCreationProcess": null,
-      "associatedSourceImage": [],
       "associatedImageAcquisitionProtocol": [
         {
           "@id": "#image-acquisition-protocol-phase-contrast-microscopy"
         }
-      ],
-      "associatedAnnotationMethod": [],
-      "associatedImageAnalysisMethod": [],
-      "associatedImageCorrelationMethod": [],
-      "associatedProtocol": []
+      ]
     },
     {
       "@id": "#Dataset-14915",
@@ -583,7 +511,6 @@
         "bia:Dataset"
       ],
       "name": "Exp08",
-      "description": "",
       "associatedBiologicalEntity": [
         {
           "@id": "#biosample-1"
@@ -594,18 +521,11 @@
           "@id": "#image-acquisition-protocol-phase-contrast-microscopy"
         }
       ],
-      "associatedSpecimen": null,
-      "associatedCreationProcess": null,
-      "associatedSourceImage": [],
       "associatedImageAcquisitionProtocol": [
         {
           "@id": "#image-acquisition-protocol-phase-contrast-microscopy"
         }
-      ],
-      "associatedAnnotationMethod": [],
-      "associatedImageAnalysisMethod": [],
-      "associatedImageCorrelationMethod": [],
-      "associatedProtocol": []
+      ]
     },
     {
       "@id": "#Dataset-14916",
@@ -614,7 +534,6 @@
         "bia:Dataset"
       ],
       "name": "Exp09",
-      "description": "",
       "associatedBiologicalEntity": [
         {
           "@id": "#biosample-1"
@@ -625,18 +544,11 @@
           "@id": "#image-acquisition-protocol-phase-contrast-microscopy"
         }
       ],
-      "associatedSpecimen": null,
-      "associatedCreationProcess": null,
-      "associatedSourceImage": [],
       "associatedImageAcquisitionProtocol": [
         {
           "@id": "#image-acquisition-protocol-phase-contrast-microscopy"
         }
-      ],
-      "associatedAnnotationMethod": [],
-      "associatedImageAnalysisMethod": [],
-      "associatedImageCorrelationMethod": [],
-      "associatedProtocol": []
+      ]
     },
     {
       "@id": "#Dataset-14902",
@@ -645,7 +557,6 @@
         "bia:Dataset"
       ],
       "name": "Exp10",
-      "description": "",
       "associatedBiologicalEntity": [
         {
           "@id": "#biosample-1"
@@ -656,18 +567,11 @@
           "@id": "#image-acquisition-protocol-phase-contrast-microscopy"
         }
       ],
-      "associatedSpecimen": null,
-      "associatedCreationProcess": null,
-      "associatedSourceImage": [],
       "associatedImageAcquisitionProtocol": [
         {
           "@id": "#image-acquisition-protocol-phase-contrast-microscopy"
         }
-      ],
-      "associatedAnnotationMethod": [],
-      "associatedImageAnalysisMethod": [],
-      "associatedImageCorrelationMethod": [],
-      "associatedProtocol": []
+      ]
     },
     {
       "@id": "#Dataset-14903",
@@ -676,7 +580,6 @@
         "bia:Dataset"
       ],
       "name": "Exp11",
-      "description": "",
       "associatedBiologicalEntity": [
         {
           "@id": "#biosample-1"
@@ -687,18 +590,11 @@
           "@id": "#image-acquisition-protocol-phase-contrast-microscopy"
         }
       ],
-      "associatedSpecimen": null,
-      "associatedCreationProcess": null,
-      "associatedSourceImage": [],
       "associatedImageAcquisitionProtocol": [
         {
           "@id": "#image-acquisition-protocol-phase-contrast-microscopy"
         }
-      ],
-      "associatedAnnotationMethod": [],
-      "associatedImageAnalysisMethod": [],
-      "associatedImageCorrelationMethod": [],
-      "associatedProtocol": []
+      ]
     },
     {
       "@id": "#Dataset-14904",
@@ -707,7 +603,6 @@
         "bia:Dataset"
       ],
       "name": "Exp12",
-      "description": "",
       "associatedBiologicalEntity": [
         {
           "@id": "#biosample-1"
@@ -718,18 +613,11 @@
           "@id": "#image-acquisition-protocol-phase-contrast-microscopy"
         }
       ],
-      "associatedSpecimen": null,
-      "associatedCreationProcess": null,
-      "associatedSourceImage": [],
       "associatedImageAcquisitionProtocol": [
         {
           "@id": "#image-acquisition-protocol-phase-contrast-microscopy"
         }
-      ],
-      "associatedAnnotationMethod": [],
-      "associatedImageAnalysisMethod": [],
-      "associatedImageCorrelationMethod": [],
-      "associatedProtocol": []
+      ]
     },
     {
       "@id": "#Dataset-14905",
@@ -738,7 +626,6 @@
         "bia:Dataset"
       ],
       "name": "Exp13",
-      "description": "",
       "associatedBiologicalEntity": [
         {
           "@id": "#biosample-1"
@@ -749,18 +636,11 @@
           "@id": "#image-acquisition-protocol-phase-contrast-microscopy"
         }
       ],
-      "associatedSpecimen": null,
-      "associatedCreationProcess": null,
-      "associatedSourceImage": [],
       "associatedImageAcquisitionProtocol": [
         {
           "@id": "#image-acquisition-protocol-phase-contrast-microscopy"
         }
-      ],
-      "associatedAnnotationMethod": [],
-      "associatedImageAnalysisMethod": [],
-      "associatedImageCorrelationMethod": [],
-      "associatedProtocol": []
+      ]
     },
     {
       "@id": "#Dataset-14906",
@@ -769,7 +649,6 @@
         "bia:Dataset"
       ],
       "name": "Exp14",
-      "description": "",
       "associatedBiologicalEntity": [
         {
           "@id": "#biosample-1"
@@ -780,18 +659,11 @@
           "@id": "#image-acquisition-protocol-phase-contrast-microscopy"
         }
       ],
-      "associatedSpecimen": null,
-      "associatedCreationProcess": null,
-      "associatedSourceImage": [],
       "associatedImageAcquisitionProtocol": [
         {
           "@id": "#image-acquisition-protocol-phase-contrast-microscopy"
         }
-      ],
-      "associatedAnnotationMethod": [],
-      "associatedImageAnalysisMethod": [],
-      "associatedImageCorrelationMethod": [],
-      "associatedProtocol": []
+      ]
     },
     {
       "@id": "#Dataset-14907",
@@ -800,7 +672,6 @@
         "bia:Dataset"
       ],
       "name": "Exp15",
-      "description": "",
       "associatedBiologicalEntity": [
         {
           "@id": "#biosample-1"
@@ -811,18 +682,11 @@
           "@id": "#image-acquisition-protocol-phase-contrast-microscopy"
         }
       ],
-      "associatedSpecimen": null,
-      "associatedCreationProcess": null,
-      "associatedSourceImage": [],
       "associatedImageAcquisitionProtocol": [
         {
           "@id": "#image-acquisition-protocol-phase-contrast-microscopy"
         }
-      ],
-      "associatedAnnotationMethod": [],
-      "associatedImageAnalysisMethod": [],
-      "associatedImageCorrelationMethod": [],
-      "associatedProtocol": []
+      ]
     },
     {
       "@id": "#Dataset-14908",
@@ -831,7 +695,6 @@
         "bia:Dataset"
       ],
       "name": "Exp16",
-      "description": "",
       "associatedBiologicalEntity": [
         {
           "@id": "#biosample-1"
@@ -842,18 +705,11 @@
           "@id": "#image-acquisition-protocol-phase-contrast-microscopy"
         }
       ],
-      "associatedSpecimen": null,
-      "associatedCreationProcess": null,
-      "associatedSourceImage": [],
       "associatedImageAcquisitionProtocol": [
         {
           "@id": "#image-acquisition-protocol-phase-contrast-microscopy"
         }
-      ],
-      "associatedAnnotationMethod": [],
-      "associatedImageAnalysisMethod": [],
-      "associatedImageCorrelationMethod": [],
-      "associatedProtocol": []
+      ]
     },
     {
       "@id": "#Dataset-14917",
@@ -862,7 +718,6 @@
         "bia:Dataset"
       ],
       "name": "Exp01",
-      "description": "",
       "associatedBiologicalEntity": [
         {
           "@id": "#biosample-1"
@@ -876,9 +731,6 @@
           "@id": "#image-acquisition-protocol-spinning-disk-confocal-microscopy"
         }
       ],
-      "associatedSpecimen": null,
-      "associatedCreationProcess": null,
-      "associatedSourceImage": [],
       "associatedImageAcquisitionProtocol": [
         {
           "@id": "#image-acquisition-protocol-phase-contrast-microscopy"
@@ -886,11 +738,7 @@
         {
           "@id": "#image-acquisition-protocol-spinning-disk-confocal-microscopy"
         }
-      ],
-      "associatedAnnotationMethod": [],
-      "associatedImageAnalysisMethod": [],
-      "associatedImageCorrelationMethod": [],
-      "associatedProtocol": []
+      ]
     },
     {
       "@id": "./",
@@ -901,7 +749,7 @@
       "name": "Distinct Roles of Tumor Associated Mutations in Collective Cell Migration",
       "description": "Recent evidence suggests that groups of cells are more likely to form clinically dangerous metastatic tumors, emphasizing the importance of understanding mechanisms underlying collective behavior. The emergent collective behavior of migrating cell sheets in vitro has been shown to be disrupted in tumorigenic cells but the connection between this behavior and in vivo tumorigenicity remains unclear. We use particle image velocimetry to measure a multidimensional migration phenotype for genetically defined human breast epithelial cell lines that range in their in vivo behavior from non-tumorigenic to aggressively metastatic. By using cells with controlled mutations, we show that PTEN deletion enhances collective migration, while Ras activation suppresses it, even when combined with PTEN deletion. These opposing effects on collective migration of two mutations that are frequently found in patient tumors could be exploited in the development of novel treatments for metastatic disease. Our methods are based on label-free phase contrast imaging, and thus could easily be applied to patient tumor cells. The short time scales of our approach do not require potentially selective growth, and thus in combination with label-free imaging would allow multidimensional collective migration phenotypes to be utilized in clinical assessments of metastatic potential.",
       "license": "https://creativecommons.org/licenses/by/4.0/",
-      "datePublished": "2021-06-30\n# Study Publication",
+      "datePublished": "2021-06-30",
       "author": [
         {
           "@id": "#author-0"
@@ -921,7 +769,6 @@
         "spinning disk confocal microscopy",
         "cell migration"
       ],
-      "acknowledgement": null,
       "hasPart": [
         {
           "@id": "#Dataset-14901"
@@ -979,8 +826,6 @@
         }
       ],
       "accessionId": "IDR0111",
-      "funding": [],
-      "seeAlso": [],
       "doi": "https://doi.org/10.17867/10000163",
       "pubmedId": "33986306",
       "imagingMethodName": [
